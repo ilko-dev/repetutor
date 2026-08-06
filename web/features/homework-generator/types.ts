@@ -7,3 +7,9 @@ export type HomeworkTask = {
   id: string;
   text: string;
 };
+
+export type TaskImage = {
+  id: string;
+  file: File;
+  previewUrl: string;
+};
