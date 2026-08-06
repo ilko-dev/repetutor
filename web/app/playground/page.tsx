@@ -11,10 +11,6 @@ export default function PlaygroundPage() {
                     <h1 className="text-4xl font-bold">
                         RepeTutor UI Playground
                     </h1>
-
-                    <p className="mt-2 text-muted-foreground">
-                        Тут тестуються всі UI компоненти.
-                    </p>
                 </div>
 
                 <Card>
