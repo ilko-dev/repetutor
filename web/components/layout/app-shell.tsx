@@ -22,7 +22,7 @@ export function AppShell({ children }: AppShellProps) {
       <div className="mx-auto flex min-h-screen max-w-[1536px]">
         <aside className="hidden w-[248px] shrink-0 flex-col border-r border-[#e7e7e3] bg-[#fbfbfa] px-4 py-5 lg:flex">
           <div className="mb-10 flex items-center gap-2 px-2">
-            <div className="flex size-7 items-center justify-center rounded-lg bg-[#191917] text-white">
+            <div className="flex size-7 items-center justify-center rounded-lg bg-primary text-primary-foreground">
               <Sparkles size={15} />
             </div>
             <span className="text-[15px] font-semibold tracking-[-0.03em]">RepeTutor</span>
@@ -50,8 +50,8 @@ export function AppShell({ children }: AppShellProps) {
             <button className="flex h-9 w-full items-center gap-3 rounded-lg px-3 hover:bg-[#f0f0ee]" type="button"><CircleHelp size={16} /> Допомога</button>
             <button className="flex h-9 w-full items-center gap-3 rounded-lg px-3 hover:bg-[#f0f0ee]" type="button"><Settings size={16} /> Налаштування</button>
             <div className="mt-3 flex items-center gap-2 px-3 pt-3">
-              <div className="flex size-7 items-center justify-center rounded-full bg-[#deded8] text-xs font-semibold">ОМ</div>
-              <span className="text-[13px] font-medium text-[#373733]">Олена Мельник</span>
+              <div className="flex size-7 items-center justify-center rounded-full bg-[#deded8] text-xs font-semibold">ІБ</div>
+              <span className="text-[13px] font-medium text-[#373733]">Іван Бойко</span>
               <MoreHorizontal className="ml-auto" size={16} />
             </div>
           </div>
@@ -60,13 +60,13 @@ export function AppShell({ children }: AppShellProps) {
         <section className="flex min-w-0 flex-1 flex-col">
           <header className="flex h-16 items-center justify-between border-b border-[#e7e7e3] bg-[#fbfbfa] px-5 sm:px-8">
             <div className="flex items-center gap-2 lg:hidden">
-              <div className="flex size-7 items-center justify-center rounded-lg bg-[#191917] text-white"><Sparkles size={15} /></div>
+              <div className="flex size-7 items-center justify-center rounded-lg bg-primary text-primary-foreground"><Sparkles size={15} /></div>
               <span className="font-semibold">RepeTutor</span>
             </div>
             <p className="hidden text-sm text-[#777772] lg:block">Головна <span className="mx-2 text-[#c5c5c1]">/</span> Нова домашня робота</p>
             <button className="flex items-center gap-2 text-sm font-medium text-[#555550] hover:text-black" type="button">
-              <div className="flex size-6 items-center justify-center rounded-full bg-[#deded8] text-[10px] font-semibold text-[#333] lg:hidden">ОМ</div>
-              <span className="hidden sm:inline">Олена Мельник</span>
+              <div className="flex size-6 items-center justify-center rounded-full bg-[#deded8] text-[10px] font-semibold text-[#333] lg:hidden">ІБ</div>
+              <span className="hidden sm:inline">Іван Бойко</span>
               <ChevronDown size={15} />
             </button>
           </header>
